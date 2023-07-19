@@ -16,7 +16,4 @@ The app uses the 'http' package to make a GET request to the 'balldontlie.io' AP
 
 The main UI consists of a 'Scaffold' with an app bar displaying the title 'NBA Teams'. The body of the app shows a list of NBA teams using the 'ListView.builder' widget, where each team is displayed in a 'ListTile' with its abbreviation and city.
 
-- This application looks like this
- 
- <img src="![Screenshot_1689779022](https://github.com/ganesh-vallabhareddy/NBA-Teams/assets/110174850/b9e00eea-aa6f-444b-9ec3-bc10b1e864e4)" width="150" height="320">
 
