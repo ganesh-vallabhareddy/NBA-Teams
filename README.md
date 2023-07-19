@@ -1,16 +1,17 @@
-# nba
+# NBA Teams App
 
-A new Flutter project.
+This is a Flutter application that displays a list of NBA teams using data fetched from the 'balldontlie.io' API. It allows users to view the abbreviations and cities of various NBA teams.
 
-## Getting Started
+I have developed this application as a learning project to gain hands-on experience with API integration, HTTP request methods, and other related concepts.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Fetches NBA team data from 'balldontlie.io' API.
+- Displays a list of NBA teams with their abbreviations and cities.
+- User-friendly and straightforward UI.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## How it works
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The app uses the 'http' package to make a GET request to the 'balldontlie.io' API, which provides NBA team data. The data is fetched asynchronously using the 'FutureBuilder' widget to handle the loading state. Once the data is obtained, it is decoded from JSON format using the 'dart:convert' library. The 'Team' class is used to represent each NBA team, and a list of 'Team' objects is populated with the fetched data.
+
+The main UI consists of a 'Scaffold' with an app bar displaying the title 'NBA Teams'. The body of the app shows a list of NBA teams using the 'ListView.builder' widget, where each team is displayed in a 'ListTile' with its abbreviation and city.
