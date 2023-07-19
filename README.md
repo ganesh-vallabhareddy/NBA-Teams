@@ -18,5 +18,5 @@ The main UI consists of a 'Scaffold' with an app bar displaying the title 'NBA T
 
 - This application looks like this
  
- <img src="![Screenshot_1689779022](https://github.com/ganesh-vallabhareddy/NBA-Teams/assets/110174850/dd3f420a-3622-4184-9fe6-a4d6bf99cf50)" width="150" height="320">
+ <img src="![Screenshot_1689779022](https://github.com/ganesh-vallabhareddy/NBA-Teams/assets/110174850/b9e00eea-aa6f-444b-9ec3-bc10b1e864e4)" width="150" height="320">
 
