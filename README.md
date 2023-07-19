@@ -15,3 +15,5 @@ I have developed this application as a learning project to gain hands-on experie
 The app uses the 'http' package to make a GET request to the 'balldontlie.io' API, which provides NBA team data. The data is fetched asynchronously using the 'FutureBuilder' widget to handle the loading state. Once the data is obtained, it is decoded from JSON format using the 'dart:convert' library. The 'Team' class is used to represent each NBA team, and a list of 'Team' objects is populated with the fetched data.
 
 The main UI consists of a 'Scaffold' with an app bar displaying the title 'NBA Teams'. The body of the app shows a list of NBA teams using the 'ListView.builder' widget, where each team is displayed in a 'ListTile' with its abbreviation and city.
+
+![Screenshot_1689779022](https://github.com/ganesh-vallabhareddy/NBA-Teams/assets/110174850/dd3f420a-3622-4184-9fe6-a4d6bf99cf50)
